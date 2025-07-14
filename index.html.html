@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Nosso amor Julia e <Glauco class="com"></Glauco></title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      overflow-x: hidden;
+    }
+
+    /* Fundo com vídeo */
+    #bg-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 30px 10px 10px;
+      font-size: 2.5em;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.92);
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+      width: 300px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .carousel {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .carousel img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      position: absolute;
+      opacity: 0;
+      transition: opacity 1s ease;
+    }
+
+    .carousel img.active {
+      opacity: 1;
+    }
+
+    audio {
+      margin: 15px 0;
+      width: 80%;
+    }
+
+    .card p {
+      padding: 0 15px 15px;
+      text-align: center;
+      font-size: 1em;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🎥 Vídeo de fundo com som -->
+  <video id="bg-video" autoplay muted loop playsinline>
+    <source src="https://jrdiesel.com.br/wp-content/uploads/2025/04/sirene-min-300.mp4" type="video/mp4">
+    Seu navegador não suporta vídeos HTML5.
+  </video>
+
+  <h1>Nossa História 💞</h1>
+
+<div class="container">
+  <!-- Quadrinho 1 -->
+  <div class="card">
+    <div class="carousel">
+      <img src="https://i.imgur.com/5cLDe5b.jpg" class="active" />
+      <img src="https://i.imgur.com/Uw3AxGk.jpg" />
+      <img src="https://i.imgur.com/V6gRo78.jpg" />
+    </div>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+    </audio>
+    <p>Nossa primeira aventura 🌅</p>
+  </div>
+
+  <!-- Quadrinho 2 -->
+  <div class="card">
+    <div class="carousel">
+      <img src="https://i.imgur.com/kXH4PAr.jpg" class="active" />
+      <img src="https://i.imgur.com/K8Qkbg1.jpg" />
+      <img src="https://i.imgur.com/oG5M1RA.jpg" />
+    </div>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" type="audio/mpeg">
+    </audio>
+    <p>Nosso dia no parque 🌳</p>
+  </div>
+
+  <!-- Quadrinho 3 -->
+  <div class="card">
+    <div class="carousel">
+      <img src="https://i.imgur.com/XMxn1Ab.jpg" class="active" />
+      <img src="https://i.imgur.com/lT3vCdF.jpg" />
+      <img src="https://i.imgur.com/Dnq4oVx.jpg" />
+    </div>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+    </audio>
+    <p>Cinema e pipoca 🎬🍿</p>
+  </div>
+
+  <!-- Quadrinho 4 -->
+  <div class="card">
+    <div class="carousel">
+      <img src="https://i.imgur.com/hL5YFgN.jpg" class="active" />
+      <img src="https://i.imgur.com/4pt7RUL.jpg" />
+      <img src="https://i.imgur.com/v5ZCgAg.jpg" />
+    </div>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" type="audio/mpeg">
+    </audio>
+    <p>Nosso aniversário 💐</p>
+  </div>
+
+  <!-- Quadrinho 5 -->
+  <div class="card">
+    <div class="carousel">
+      <img src="https://i.imgur.com/hL5YFgN.jpg" class="active" />
+      <img src="https://i.imgur.com/4pt7RUL.jpg" />
+      <img src="https://i.imgur.com/v5ZCgAg.jpg" />
+    </div>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" type="audio/mpeg">
+    </audio>
+    <p>Danças nossas 💃</p>
+  </div>
+
+  <!-- Quadrinho 6 -->
+  <div class="card">
+    <div class="carousel">
+      <img src="https://i.imgur.com/hL5YFgN.jpg" class="active" />
+      <img src="https://i.imgur.com/4pt7RUL.jpg" />
+      <img src="https://i.imgur.com/v5ZCgAg.jpg" />
+    </div>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" type="audio/mpeg">
+    </audio>
+    <p>MOMENTOS</p>
+  </div>
+
+  <!-- Quadrinho 7 -->
+  <div class="card">
+    <div class="carousel">
+      <img src="https://i.imgur.com/hL5YFgN.jpg" class="active" />
+      <img src="https://i.imgur.com/4pt7RUL.jpg" />
+      <img src="https://i.imgur.com/v5ZCgAg.jpg" />
+    </div>
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3" type="audio/mpeg">
+    </audio>
+    <p>VIAGENS</p>
+  </div>
+</div>
+
+
+  <script>
+    const carousels = document.querySelectorAll(".carousel");
+
+    carousels.forEach(carousel => {
+      const imgs = carousel.querySelectorAll("img");
+      let index = 0;
+
+      setInterval(() => {
+        imgs[index].classList.remove("active");
+        index = (index + 1) % imgs.length;
+        imgs[index].classList.add("active");
+      }, 3000);
+    });
+
+    // Som do vídeo liberado após clique
+    window.addEventListener('click', () => {
+      const video = document.getElementById('bg-video');
+      video.muted = false;
+    }, { once: true });
+  </script>
+</body>
+</html>
